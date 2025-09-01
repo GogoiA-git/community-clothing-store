@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: skyblue;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+main {
+    max-width: 800px;
+    margin: auto;
+}
+.centered {
+    text-align: center;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.comment-section {
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #eee;
+}
